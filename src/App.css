@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  min-width: 1024px;
+  margin-bottom: 50px;
+}
+select{
+  width: 130px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(29, 139, 236, 0.161);
+  height: 680px;
+  border-radius: 10px;
+  padding: 40px;
+  margin-top: 80px;
+  margin-left: 80px;
+  height: 800px;
+}
+
+header h1{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 60px;
+padding-top: 140px;
+padding-bottom: 140px;
+color: #F1F2F3;
+font-size: 60px;
+
+}
+h2, h3{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 28px;
+}
+
+li{
+  padding: 4px;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+p{
+  margin-left: 20px;
+  line-height: 1.6; /* Vous pouvez ajuster cette valeur selon vos besoins */
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.header_and_title{
+  background-color: rgba(0, 0, 0, 0.867);
+}
+form{
+  margin-left: 20px;
+}
+.ppandform{
+  display: flex;
+  flex-direction: row-reverse;
+  
+  
+}
+.pointspositifs{
+  padding-left: 32px;
+
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-right: 10px;
+  font-size: 20px;
+
+}
+.eligib{
+  font-size: 28px;
+}
+.form-group input, select {
+  width:290px;
+  margin-top: 6px;
+  display: flex;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  height: 38px;
+}
+
+button {
+  padding-top: 20px;
+  padding: 15px 118px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+.thermostat_image img {
+  min-width: 100%;
+  min-height: 150px; 
+}
+.thermostat_image {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* Ajustez selon vos besoins */
+  height: 300px; /* Ajustez selon vos besoins */
+  flex-direction: column;
+}
+.thermostat_image h2{
+  font-size: 36px;
+}
+.thermostat_image p{
+  font-size: 20px;
+}
+/* Styles pour le message de succès */
+/* Styles pour le message de succès */
+.success-message {
+  color: #155724; /* Couleur du texte */
+  background-color: #d4edda; /* Couleur de fond */
+  border: 1px solid #c3e6cb; /* Bordure */
+  padding: 10px; /* Espacement interne */
+  border-radius: 5px; /* Coins arrondis */
+  margin: 10px 0; /* Marges */
+  font-size: 16px; /* Taille de police */
+  text-align: center; /* Centrer le texte */
+}
+
+/* Styles pour le message d'erreur */
+.error-message {
+  color: #721c24; /* Couleur du texte */
+  background-color: #f8d7da; /* Couleur de fond */
+  border: 1px solid #f5c6cb; /* Bordure */
+  padding: 10px; /* Espacement interne */
+  border-radius: 5px; /* Coins arrondis */
+  margin: 10px 0; /* Marges */
+  font-size: 16px; /* Taille de police */
+  text-align: center; /* Centrer le texte */
+}
+
+/* Styles pour le texte d'erreur des champs de formulaire */
+.error-text {
+  color: #dc3545; /* Couleur du texte */
+  font-size: 14px; /* Taille de police */
+  margin-top: 5px; /* Marge au-dessus */
+}
+
+.thermostat_image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 390px;
+  max-height: 390px;
+  background-image: url('./thermostat.jpg'); /* Chemin relatif à votre fichier CSS */
+  background-size: cover; /* Pour que l'image couvre toute la div */
+  background-position: center; /* Pour centrer l'image */
+  background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
+  opacity: 0.5;
+  z-index: -1; /* Placer l'image derrière le contenu */
+}
+.planthermo{
+  margin-top: 100px;
+}
